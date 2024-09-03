@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_us</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+       .contact-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .contact-info p {
+            margin: 0;
+        }
+
+
+        .menu {
+            display: flex;
+            background-color: #298a25;
+            padding: 10px;
+        }
+
+        .menu-item {
+            position: relative;
+            margin-right: 20px;
+        }
+
+        .menu-item > p,
+        .menu-item > a {
+            padding: 10px 20px;
+            margin: 0;
+            color: white;
+            display: block;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        .menu-item > p:hover,
+        .menu-item > a:hover {
+            background-color: #444444;
+        }
+
+        /* Hide dropdowns initially */
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #298a25;
+            min-width: 155px;
+            z-index: 1000;
+        }
+
+        .dropdown .menu-item {
+            margin: 0;
+        }
+
+        .dropdown a {
+            padding: 10px 20px;
+            margin: 0;
+            color: white;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        .dropdown a:hover {
+            background-color: #555;
+        }
+
+        /* Show dropdown on hover */
+        .menu-item:hover > .dropdown {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <table width="100%" align="center" bgcolor="skyblue">
+        <tr height="120px" bgcolor="#A9E9FF" align="center">
+            <td width="200px" align="left">
+             <p style="font-family: 'Times New Roman', Times, serif;">BIU-UC1 <br>Name:Youn sokhour <br> Major:SE <br> Room: 204</p>   
+            </td>
+            <td>
+                <p align="center" style="font-family: Arial Black; color: rgb(0, 34, 255);"> Place to Visit <br> In <br> CAMBODIA</p>   
+            </td>
+        </tr>
+    </table>
+<div class="menu">
+    <div class="menu-item">
+        <a href="Homeweb.html">Home</a>
+    </div>
+    <div class="menu-item">
+        <p>Recommendation</p>
+        <div class="dropdown">
+            <div class="menu-item"><a href="Recommendation.html">1.Siem reap</a></div>
+            <div class="menu-item"><a href="Recommendation2.html">2.Preah-Sihanouk</a></div>
+            <div class="menu-item"><a href="Recommendation3.html">3.Kho-kong</a></div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <p>More Info</p>
+        <div class="dropdown">
+            <div class="menu-item"><a href="More_info.html">1.Siem reap</a></div>
+            <div class="menu-item"><a href="More_info2.html">2.Preah-Sihanouk</a></div>
+            <div class="menu-item"><a href="More_info3.html">3.Kho-kong</a></div>
+        </div>
+    </div>
+    <div class="menu-item">
+        <a href="Contact us.html">Contact</a>
+    </div>
+    
+</div>
+<table width="100%" align="center">
+    <h1>Contact Us</h1>
+
+    <div class="contact-info">
+        <img src="2660415679.jpg" alt="Contact 1">
+        <div>
+            <p>Name: John Doe</p>
+            <p>Number: 1234567890</p>
+            <p>Gmail: johndoe@example.com</p>
+        </div>
+    </div>
+    <div class="contact-info">
+        <img src="2660415679.jpg" alt="Contact 1">
+        <div>
+            <p>Name: John Doe</p>
+            <p>Number: 1234567890</p>
+            <p>Gmail: johndoe@example.com</p>
+        </div>
+    </div>
+    <div class="contact-info">
+        <img src="2660415679.jpg" alt="Contact 1">
+        <div>
+            <p>Name: John Doe</p>
+            <p>Number: 1234567890</p>
+            <p>Gmail: johndoe@example.com</p>
+        </div>
+    </div>
+    <div class="contact-info">
+        <img src="2660415679.jpg" alt="Contact 1">
+        <div>
+            <p>Name: John Doe</p>
+            <p>Number: 1234567890</p>
+            <p>Gmail: johndoe@example.com</p>
+        </div>
+    </div>
+    <div class="contact-info">
+        <img src="2660415679.jpg" alt="Contact 1">
+        <div>
+            <p>Name: John Doe</p>
+            <p>Number: 1234567890</p>
+            <p>Gmail: johndoe@example.com</p>
+        </div>
+    </div>
+   
+    <!--Footer-->
+    <tr height="30px" bgcolor="#566573" align="center">
+        <td colspan="3">
+         <p>Copyright &copy;2024</p>  
+        </td>
+    </tr>
+</table>
+</body>
+</html>
